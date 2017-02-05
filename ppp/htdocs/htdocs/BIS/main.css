@@ -1,0 +1,560 @@
+body {
+    background-image: url("img/background.jpg");
+    margin: 0;
+    padding: 0;
+	}
+
+#ididid{
+	background-image: url("img/background.jpg");
+    margin: 0;
+    padding: 0;
+}
+	
+#prvidiv {
+	width: 450px;
+	height: 550px;
+	margin: auto;
+	margin-top: 50px;
+	background-color:black;
+	border: 5px double gray;
+	opacity: 0.8;
+}
+
+#drugidiv{
+	width:450px;
+	height:10px;
+	background-color:yellow;
+	margin:0;
+	padding:0;
+	opacity:0.8;
+}
+
+#trecidiv{
+	
+	width:400px;
+	margin-left:20px;
+	height:40px;
+	margin-top:170px;
+	background-color:yellow;
+	opacity:0.8;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	font-style:bold;
+	border: 5px double gray;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#cetvrtidiv{
+	
+    display:block;
+	width:400px;
+	margin-left:20px;
+	height:40px;
+	margin-top:15px;
+	background-color:yellow;
+	opacity:0.8;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	font-style:bold;
+	border: 5px double gray;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#petidiv{
+	width:400px;
+	margin-left:20px;
+	height:40px;
+	margin-top:15px;
+	background-color:yellow;
+	opacity:0.8;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	font-style:bold;
+	border: 5px double gray;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#trecidiv:hover {
+    background-color: #ffd700;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+#cetvrtidiv:hover {
+    background-color: #ffd700;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+#petidiv:hover {
+    background-color: #ffd700;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+#text1{
+	color:white;
+	height:initial;
+	width:initial;
+	margin-left:20px;
+	margin-top: 100px;
+	padding:2.5%;
+	font-size:25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#sestidiv{
+	width:410px;
+	height:40px;
+	margin-left:20px;
+	background:yellow;
+	opacity:0.8;
+	margin-top:55px;
+}
+
+#input1{
+	height:35px;
+	margin-left:5px;
+	margin-top:2.5px;
+	width:400px;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:yellow;
+	border:0px;
+	outline:none;
+}
+
+#input1::-webkit-input-placeholder {
+	color: black;
+	text-align:center;
+}
+
+#potvrda1{
+	margin-top:55px;
+	margin-left:20px;
+	background-color:yellow;
+	height:40px;
+	width:150px;
+	opacity:0.8;
+	color:black;
+	font-size:25px;
+	text-align:center;
+	font-style:bold;
+	border: 5px double gray;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+#potvrda1:hover {
+    background-color: #ffd700;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+#pocetna{
+	height:65px;
+	width: 450px;
+	margin: auto;
+	background-color:black;
+	border: 5px double gray;
+	opacity: 0.8;
+	border-top:none;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-size:60px;
+	text-align:center;
+	font-style:bold;
+}
+
+#pocetna:hover {
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+#sedmidiv{
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+	background-color:black;
+	border: 5px double gray;
+	opacity: 0.8;
+}
+
+#password{
+	width:410px;
+	height:40px;
+	margin-left:20px;
+	background:yellow;
+	opacity:0.8;
+	margin-top:20px;
+	}
+
+#lozinka{	
+	height:35px;
+	margin-left:5px;
+	margin-top:2.5px;
+	width:400px;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:yellow;
+	border:0px;
+	outline:none;
+}
+
+#lozinka::-webkit-input-placeholder {
+	color: black;
+	text-align:center;
+}
+
+#osmidiv{
+	width:initial;
+	height:initial;
+	text-align:center-left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-style:italic;
+	color:white;
+	padding:1%
+}
+
+#logout{
+	background-image:url("img/logout.jpg");
+	opacity:0.8;
+	float:right;
+	width:50px;
+	height:50px;
+	cursor:pointer;
+}
+
+#Odaberitedoktora{
+	margin-left:10px;
+	margin-top:75px;
+	width:initial;
+	height:initial;
+	color:white;
+	text-align:center-left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-style:italic;
+	padding:1%;
+}
+
+#selectdoktor{
+	width:75px;
+	height:initial;
+}
+
+#Odaberitedatum{
+	margin-left:10px;
+	width:initial;
+	height:initial;
+	color:white;
+	text-align:center-left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-style:italic;
+	padding:1%;
+}
+
+#datePicker{
+	width:155px;
+	height:initial;
+	margin-left:11px;
+	}
+
+#Odaberitevrijeme{
+	margin-left:10px;
+	width:initial;
+	height:initial;
+	color:white;
+	text-align:center-left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-style:italic;
+	padding:1%;
+}
+
+#selectvrijeme{
+	margin-left:2px;
+}
+
+#potvrda2{
+	margin-top:45px;
+	margin-left:425px;
+	background-color:yellow;
+	height:40px;
+	width:150px;
+	opacity:0.8;
+	color:black;
+	font-size:30px;
+	text-align:center;
+	font-style:bold;
+	border: 5px double gray;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#potvrda2:hover {
+    background-color: #ffd700;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+a {
+	color:white;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	
+}
+
+#link1{
+	padding:3%;
+	float:right;
+	margin-top:75px;
+}
+
+#pozicija1{
+	padding:1%;
+	margin-top:5px;
+	width:initial;
+	height:initial;
+	color:white;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+#scroll{
+	overflow:scroll;
+	width:950px;
+	height:initial;
+	margin-left:25px;
+	}
+
+#tablica{
+	margin-left:25px;
+	width:765px;
+	background:white;
+	
+}
+
+#td{
+	width:250px;
+	height:initial;
+	border:1px solid;
+	text-align:center;
+}
+
+#td1{
+	width:85px;
+	height:initial;
+	border:1px solid;
+	text-align:center;
+}
+
+td{
+	height:initial;
+	border:1px solid;
+	text-align:center;
+	height:25px;
+}
+
+#submit{
+	margin-left:25px;
+	margin-top:25px;
+}
+
+#devetidiv{
+	width: 1000px;
+	height: 550px;
+	margin: auto;
+	margin-top: 50px;
+	background-color:black;
+	border: 5px double gray;
+	opacity: 0.8;
+}
+
+#krvnagrupa{
+	width:initial;
+	height:initial;
+	text-align:center-left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-style:italic;
+	padding:1%;
+	margin-left:10px;
+	margin-top:10px;
+	color:white;
+}
+
+#rhfaktor{
+	width:150px;
+	height:initial;
+	text-align:center-left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-style:italic;
+	margin-top:5px;
+	padding:1%;
+	margin-left:10px;
+	margin-top:0px;
+	color:white;
+}
+
+#brkartona{
+	width:150px;
+	height:25px;
+	float:right;
+	color:white;
+	padding:1%;
+}
+
+#border1{
+	width:450px;
+	margin-left:10px;
+	margin-top:50px;
+	border: 3px double gray;
+	background-color:white;
+	height:initial;
+}
+
+#Ime{
+	text-decoration:underline;
+	margin-left:10px;
+	width:450px;
+	height:25px;
+}
+
+#spol{
+	text-decoration:underline;
+	width:50px;
+	height:25px;
+	float:right;
+	margin-right:25px;
+}
+
+#datumr{
+	text-decoration:underline;
+	margin-left:10px;
+	width:450px;
+	height:25px;
+}
+
+#bstanje{
+	text-decoration:underline;
+	margin-right:10px;
+	width:100px;
+	height:25px;
+	float:right;
+}
+
+#mjestos{
+	text-decoration:underline;
+	margin-left:10px;
+	width:450px;
+	height:25px;
+}
+
+#kupibstanje{
+	text-decoration:underline;
+	width:100px;
+	height:25px;
+	float:right;
+}
+
+#scroll1{
+	margin-top:50px;
+	overflow:scroll;
+	width:950px;
+	height:initial;
+	margin-left:10px;
+	}
+
+#link2{
+	padding:3%;
+	float:right;
+	margin-top:25px;
+	text-decoration:none;
+}
+
+#spremikarton{
+	margin-left:450px;
+	margin-top:75px;
+	background-color:yellow;
+	height:30px;
+	width:100px;
+	opacity:0.8;
+	color:black;
+	font-size:17px;
+	text-align:center;
+	font-style:bold;
+	border: 5px double gray;
+	cursor: pointer;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#spremikarton:hover {
+    background-color: #ffd700;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transform: scale(1.02);
+}
+
+#tablica10{
+	width:765px;
+	background:white;
+	
+}
+
+#datePicker1{
+	width:initial;
+	height:initial;
+}
+
+#tablica11{
+margin-top:10px;
+margin-left:25px;
+background:white;
+width:765px;
+}
+#tablica12{
+margin-top:50px;
+margin-left:10px;
+	width:765px;
+	background:white;
+	
+}
+
+#karton{
+	background-image: url("img/karton.jpg");
+	opacity:0.8;
+	cursor:pointer;
+}
+
+#tablica13{
+	margin-left:25px;
+	width:765px;
+	background:white;
+}
+
+.odjavi{
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
